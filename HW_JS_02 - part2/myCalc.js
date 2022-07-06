@@ -2,7 +2,7 @@ const firstNumber = +prompt("write your first number")
 const action = prompt("what action do you want(+ - * /)")
 const secondNumber = +prompt("write your second number")
 let answer=null;
-
+alert('Hi')
 switch(action){
     case "+":
         answer= firstNumber + secondNumber;
